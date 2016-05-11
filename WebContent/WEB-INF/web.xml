@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>cookie</display-name>
+  <servlet>
+    <servlet-name>UserAction</servlet-name>
+    <servlet-class>com.kc.action.UserAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAction</servlet-name>
+    <url-pattern>/userAction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UploadAction</servlet-name>
+    <servlet-class>com.kc.action.UploadAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadAction</servlet-name>
+    <url-pattern>/uploadAction</url-pattern>
+  </servlet-mapping>
+</web-app>
